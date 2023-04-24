@@ -1,0 +1,34 @@
+$color1:#5b7065;
+$color2:#c9d1c8;
+$color3:#04202c;
+
+$portadas: (
+    desktop:700px,
+    mobile:300px,
+);
+@each $vista, $altura in $portadas{
+    .port-#{$vista}{
+        height: $altura;
+    }
+}  
+$bg-color:(
+    1 : $color1,
+    2 : $color2,
+    3 : $color3,
+);
+@each $fondo, $color in $bg-color{
+    .bg-#{$fondo}{
+        background-color: $color;
+    }
+}
+$columnas:(
+    d1: 700px,
+    D2: 500px,
+    Mob: 300px,
+    Esp: 200px,
+);
+@each $columna, $alto in $columnas{
+    .col#{$columna}{
+        height: $alto;
+    }
+}

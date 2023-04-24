@@ -1,0 +1,53 @@
+.port-desktop {
+  height: 700px;
+}
+
+.port-mobile {
+  height: 300px;
+}
+
+.bg-1 {
+  background-color: #5b7065;
+}
+
+.bg-2 {
+  background-color: #c9d1c8;
+}
+
+.bg-3 {
+  background-color: #04202c;
+}
+
+.cold1 {
+  height: 700px;
+}
+
+.colD2 {
+  height: 500px;
+}
+
+.colMob {
+  height: 300px;
+}
+
+.colEsp {
+  height: 200px;
+}
+
+header {
+  background-color: #5b7065;
+}
+
+li {
+  font-size: 25px;
+}
+
+.gutter {
+  --bs-gutter-x:0;
+}
+
+.imgWidth {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
