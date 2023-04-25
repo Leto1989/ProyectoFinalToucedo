@@ -1,12 +1,4 @@
-$portadas: (
-    desktop:600px,
-    mobile:300px,
-);
-@each $vista, $altura in $portadas{
-    .port-#{$vista}{
-        height: $altura;
-    }
-}  
+  
 $bg-color:(
     1 : $color1,
     2 : $color2,

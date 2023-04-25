@@ -1,5 +1,5 @@
-@media (max-width:768px){
-    footer{
+@media (max-width:768px) {
+    footer, header {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -10,4 +10,9 @@
         position: absolute;
         top: 250px;
     }
+    .port{height: 300px;}
+}
+
+@media (max-width:1024px) {
+    .port{height: 700px;}
 }
