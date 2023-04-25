@@ -1,0 +1,20 @@
+.row{
+    --bs-gutter-x:0;
+}
+.gutter{
+    --bs-gutter-x:0;
+}
+header{
+    background-color: $color1;
+}
+li{
+    font-size: 25px;
+}
+footer{
+    display: flex;
+    background-color: $color1;
+    .cont{
+        font-size: 15px;
+    }
+}
+            

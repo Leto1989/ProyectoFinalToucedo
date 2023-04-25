@@ -1,9 +1,5 @@
-$color1:#5b7065;
-$color2:#c9d1c8;
-$color3:#04202c;
-
 $portadas: (
-    desktop:700px,
+    desktop:600px,
     mobile:300px,
 );
 @each $vista, $altura in $portadas{
@@ -22,7 +18,7 @@ $bg-color:(
     }
 }
 $columnas:(
-    d1: 700px,
+    D1: 700px,
     D2: 500px,
     Mob: 300px,
     Esp: 200px,

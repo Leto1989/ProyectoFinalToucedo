@@ -1,0 +1,49 @@
+//COLORES
+
+$color1:#5b7065;
+$color2:#c9d1c8;
+$color3:#04202c;
+//FUENTES
+
+@font-face {
+    font-family: "Battambang";
+    src: url("../fonts/Battambang-Bold.ttf");
+    font-family: "Balthazar";
+    src: url("../fonts/Balthazar-Regular.ttf");
+    font-family: "CormorantUnicase";
+    src: url("../fonts/CormorantUnicase-Medium.ttf");
+}
+
+h1{
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    color: $color2;
+    font-size: 70px;
+    font-family: Battambang;
+}
+
+.p1{
+    margin: 40px;
+    padding: 20px;
+    font-size: 25px;
+    color:$color3;
+    font-family: "Battambang";
+
+}
+.pFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+//IMÁGENES
+
+.imgWidth{
+    width: 100%;
+}
+.imgCont{
+    position: relative;
+}
+
+
