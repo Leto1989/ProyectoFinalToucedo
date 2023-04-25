@@ -6,27 +6,10 @@
   font-family: "CormorantUnicase";
   src: url("../fonts/CormorantUnicase-Medium.ttf");
 }
-h1 {
-  position: absolute;
-  left: 25%;
-  top: 50%;
-  color: #c9d1c8;
-  font-size: 70px;
-  font-family: Battambang;
-}
-
-.p1 {
-  margin: 40px;
-  padding: 20px;
-  font-size: 25px;
-  color: #04202c;
-  font-family: "Battambang";
-}
-
 .pFlex {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 
 .imgWidth {
@@ -37,6 +20,62 @@ h1 {
   position: relative;
 }
 
+h2 {
+  margin: 40px 20px;
+  font-size: 40px;
+  font-family: "CormorantUnicase";
+  color: #c9d1c8;
+}
+
+.titulo, .titulo-oscuro, .titulo-claro {
+  position: absolute;
+  left: 25%;
+  top: 50%;
+  color: #c9d1c8;
+  font-size: 70px;
+  font-family: Battambang;
+  margin: 10px;
+  padding: 5px;
+}
+
+.titulo-oscuro {
+  color: #04202c;
+}
+
+.p1, .p1-claro, .p1-chico, .p1-resaltado {
+  margin: 40px;
+  padding: 20px;
+  font-size: 25px;
+  color: #04202c;
+  font-family: "Balthazar";
+}
+
+.p1-chico {
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px;
+  font-family: "Battambang";
+}
+
+.p1-claro {
+  color: #c9d1c8;
+}
+
+@media (max-width: 768px) {
+  footer, header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 50px;
+    position: absolute;
+    top: 250px;
+  }
+  .port {
+    height: 300px;
+  }
+}
 .row {
   --bs-gutter-x:0;
 }
@@ -61,24 +100,8 @@ footer .cont {
   font-size: 15px;
 }
 
-@media (max-width: 768px) {
-  footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  h1 {
-    font-size: 50px;
-    position: absolute;
-    top: 250px;
-  }
-}
-.port-desktop {
-  height: 600px;
-}
-
-.port-mobile {
-  height: 300px;
+.port {
+  height: 700px;
 }
 
 .bg-1 {

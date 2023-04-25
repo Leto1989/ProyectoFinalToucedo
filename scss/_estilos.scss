@@ -13,28 +13,10 @@ $color3:#04202c;
     font-family: "CormorantUnicase";
     src: url("../fonts/CormorantUnicase-Medium.ttf");
 }
-
-h1{
-    position: absolute;
-    left: 25%;
-    top: 50%;
-    color: $color2;
-    font-size: 70px;
-    font-family: Battambang;
-}
-
-.p1{
-    margin: 40px;
-    padding: 20px;
-    font-size: 25px;
-    color:$color3;
-    font-family: "Battambang";
-
-}
 .pFlex{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 
 //IMÁGENES
@@ -44,6 +26,12 @@ h1{
 }
 .imgCont{
     position: relative;
+}
+h2{
+    margin: 40px 20px;
+    font-size: 40px;
+    font-family: "CormorantUnicase";
+    color: $color2;
 }
 
 

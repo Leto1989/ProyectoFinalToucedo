@@ -1,0 +1,44 @@
+.titulo{
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    color: $color2;
+    font-size: 70px;
+    font-family: Battambang;
+    margin: 10px;
+    padding: 5px;
+}
+@each $titulo in claro, oscuro {
+    .titulo-#{$titulo}{
+        @extend .titulo;
+    }
+}
+.titulo-oscuro{
+    @extend .titulo;
+    color: $color3;
+}
+
+.p1{
+    margin: 40px;
+    padding: 20px;
+    font-size: 25px;
+    color:$color3;
+    font-family: "Balthazar";
+
+}
+@each $parrafo in resaltado, chico, claro {
+    .p1-#{$parrafo}{
+        @extend .p1;
+    }
+}
+.p1-chico{
+    @extend .p1;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    font-family: "Battambang";
+}
+.p1-claro{
+    @extend .p1;
+    color: $color2;
+}
