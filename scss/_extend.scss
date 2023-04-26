@@ -27,6 +27,10 @@
     color:$color3;
     font-family: "Balthazar";
 
+    @include mobile {
+        font-size: 20px;
+    }
+
 }
 @each $parrafo in resaltado, chico, claro, cont {
     .p1-#{$parrafo}{

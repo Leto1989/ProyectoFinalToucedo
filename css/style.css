@@ -48,6 +48,11 @@
   color: #04202c;
   font-family: "Balthazar";
 }
+@media screen and (max-width: 768px) {
+  .p1, .p1-cont, .p1-claro, .p1-chico, .p1-resaltado {
+    font-size: 20px;
+  }
+}
 
 .p1-resaltado {
   margin-top: 200px;
@@ -106,6 +111,11 @@
 .port {
   height: 700px;
 }
+@media screen and (max-width: 768px) {
+  .port {
+    height: 300px;
+  }
+}
 
 .logo {
   display: flex;
@@ -153,7 +163,6 @@ li {
 
 footer {
   display: flex;
-  background-color: #5b7065;
   border: solid black;
   border-radius: 5px;
 }
@@ -205,18 +214,6 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #3e8e41;
-}
-
-@media (max-width: 768px) {
-  footer, header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .port {
-    height: 400px;
-    color: #c9d1c8;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
