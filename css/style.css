@@ -37,6 +37,17 @@
   position: relative;
 }
 
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.rrss {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 h2 {
   margin: 40px 20px;
   font-size: 40px;
@@ -45,9 +56,9 @@ h2 {
 }
 
 h3, h4 {
-  color: #c9d1c8;
-  margin: 15px;
-  padding: 5px;
+  color: #04202c;
+  margin: 2px;
+  padding: 2px;
 }
 
 .titulo, .titulo-oscuro, .titulo-claro {
@@ -116,6 +127,8 @@ li {
 footer {
   display: flex;
   background-color: #5b7065;
+  border: solid black;
+  border-radius: 10px;
 }
 footer .cont {
   font-size: 15px;
