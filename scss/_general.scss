@@ -6,16 +6,36 @@
 }
 header{
     background-color: $color2;
+
+    @include mobile {
+        display: flex;
+        flex-direction: column;
+        div{ 
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        
+    }
 }
 li{
     font-size: 25px;
 }
 footer{
+    background-color: $color2;
     display: flex;
     border: solid black;
     border-radius: 5px;
     .cont{
         font-size: 15px;
+    }
+
+    @include mobile {
+        div{ 
+            display: flex;
+            flex-direction: row;
+            width:inherit;
+            justify-content: center;}
     }
 }
   
