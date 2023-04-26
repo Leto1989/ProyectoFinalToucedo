@@ -1,9 +1,6 @@
-//COLORES
 
-$color1:#5b7065;
-$color2:#c9d1c8;
-$color3:#04202c;
-$color4: #304040;
+
+
 //FUENTES
 
 @font-face {
@@ -30,6 +27,7 @@ $color4: #304040;
 .imgCont{
     position: relative;
 }
+.port{height: 700px;}      
 .logo{
     display: flex;
     justify-content: center;
@@ -40,6 +38,9 @@ $color4: #304040;
     justify-content: space-evenly;
 }
 //Textos
+h1{
+    font-size: 200px;
+}
 h2{
     margin: 40px 20px;
     font-size: 40px;
