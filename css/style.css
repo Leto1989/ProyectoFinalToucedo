@@ -56,13 +56,14 @@ h2 {
 }
 
 h3, h4 {
-  color: #04202c;
+  color: #c9d1c8;
   margin: 2px;
   padding: 2px;
 }
 
 .titulo, .titulo-oscuro, .titulo-claro {
   position: absolute;
+  width: 330px;
   left: 25%;
   top: 50%;
   color: #c9d1c8;
@@ -91,6 +92,7 @@ h3, h4 {
 }
 
 .p1-chico {
+  color: #c9d1c8;
   font-size: 20px;
   margin: 20px;
   padding: 10px;
@@ -102,10 +104,15 @@ h3, h4 {
 }
 
 .p1-cont {
-  font-size: 20px;
+  font-size: 15px;
   margin: 2px;
   padding: 2px;
-  color: #c9d1c8;
+  color: #04202c;
+}
+
+.contacto {
+  color: #04202c;
+  font-size: 20px;
 }
 
 .row {
@@ -117,7 +124,7 @@ h3, h4 {
 }
 
 header {
-  background-color: #5b7065;
+  background-color: #c9d1c8;
 }
 
 li {
@@ -128,7 +135,7 @@ footer {
   display: flex;
   background-color: #5b7065;
   border: solid black;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 footer .cont {
   font-size: 15px;
