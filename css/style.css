@@ -20,6 +20,8 @@
   src: url("../fonts/Balthazar-Regular.ttf");
   font-family: "CormorantUnicase";
   src: url("../fonts/CormorantUnicase-Medium.ttf");
+  font-family: "SpaceGrotesk";
+  src: url("../fonts/SpaceGrotesk-VariableFont_wght.ttf");
 }
 .pFlex {
   display: flex;
@@ -69,6 +71,12 @@ h3, h4 {
   font-size: 25px;
   color: #04202c;
   font-family: "Balthazar";
+}
+
+.p1-resaltado {
+  margin-top: 200px;
+  background-color: #5b7065;
+  font-family: "CormorantUnicase";
 }
 
 .p1-chico {
@@ -143,6 +151,52 @@ footer .cont {
 
 .colEsp {
   height: 200px;
+}
+
+form {
+  background-color: #04202c;
+  border: 2px solid #ccc;
+  margin-top: 300px;
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #c9d1c8;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #c9d1c8;
+}
+
+input[type=text], input[type=email], textarea {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type=submit]:hover {
+  background-color: #3e8e41;
 }
 
 /*# sourceMappingURL=style.css.map */

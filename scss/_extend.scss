@@ -33,6 +33,11 @@
         @extend .p1;
     }
 }
+.p1-resaltado{
+    margin-top: 200px;
+    background-color: $color1;
+    font-family: "CormorantUnicase";
+}
 .p1-chico{
     @extend .p1;
     font-size: 20px;
