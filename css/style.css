@@ -42,6 +42,12 @@ h2 {
   color: #c9d1c8;
 }
 
+h3, h4 {
+  color: #c9d1c8;
+  margin: 15px;
+  padding: 5px;
+}
+
 .titulo, .titulo-oscuro, .titulo-claro {
   position: absolute;
   left: 25%;
@@ -108,7 +114,7 @@ footer .cont {
 }
 
 .port {
-  height: 400px;
+  height: 700px;
 }
 
 .bg-1 {
