@@ -51,6 +51,11 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
+.transLeft{
+    @include desktop{
+    transform: translate(40px, 40px);
+    }
+}
 //Textos
 
 h2{
