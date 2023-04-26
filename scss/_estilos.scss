@@ -3,6 +3,7 @@
 $color1:#5b7065;
 $color2:#c9d1c8;
 $color3:#04202c;
+$color4: #304040;
 //FUENTES
 
 @font-face {
@@ -32,6 +33,17 @@ h2{
     font-size: 40px;
     font-family: "CormorantUnicase";
     color: $color2;
+}
+//TEXTOS
+.titulo{
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    color: $color2;
+    font-size: 70px;
+    font-family: Battambang;
+    margin: 10px;
+    padding: 5px;
 }
 
 
