@@ -20,6 +20,10 @@
 
 .imgWidth{
     width: 100%;
+
+    @include mobile {
+        height: 300px;
+    }
 }
 .imgCont{
     position: relative;
@@ -29,7 +33,7 @@
     height: 500px;
 
     @include mobile {
-        height: 300px;
+        height: 200px;
         
     }
 }      

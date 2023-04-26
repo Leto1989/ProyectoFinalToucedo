@@ -3,7 +3,7 @@
     width: 300px;
     color: $color2;
     font-size: 70px;
-    font-family: Battambang;
+    font-family: "Battambang";
     margin: 10px;
     padding: 5px;
 
@@ -31,6 +31,8 @@
 
     @include mobile {
         font-size: 20px;
+        margin: 20px;
+        padding: 10px;
     }
 
 }
@@ -52,9 +54,13 @@
     @extend .p1;
     color: $color2;
     font-size: 20px;
-    margin: 20px;
-    padding: 10px;
+    margin: 10px 20px;
+    padding: 5px;
     font-family: "Battambang";
+
+    @include mobile{
+        font-size: 15px;
+    }
 }
 .p1-claro{
     @extend .p1;

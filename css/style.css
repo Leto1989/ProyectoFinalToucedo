@@ -40,13 +40,10 @@
 }
 
 .titulo, .titulo-oscuro, .titulo-claro {
-  position: absolute;
   width: 300px;
-  left: 25%;
-  top: 50%;
   color: #c9d1c8;
   font-size: 70px;
-  font-family: Battambang;
+  font-family: "Battambang";
   margin: 10px;
   padding: 5px;
 }
@@ -70,6 +67,8 @@
 @media screen and (max-width: 768px) {
   .p1, .p1-cont, .p1-claro, .p1-chico, .p1-resaltado {
     font-size: 20px;
+    margin: 20px;
+    padding: 10px;
   }
 }
 
@@ -87,9 +86,14 @@
 .p1-chico {
   color: #c9d1c8;
   font-size: 20px;
-  margin: 20px;
-  padding: 10px;
+  margin: 10px 20px;
+  padding: 5px;
   font-family: "Battambang";
+}
+@media screen and (max-width: 768px) {
+  .p1-chico {
+    font-size: 15px;
+  }
 }
 
 .p1-claro {
@@ -127,6 +131,11 @@
 .imgWidth {
   width: 100%;
 }
+@media screen and (max-width: 768px) {
+  .imgWidth {
+    height: 300px;
+  }
+}
 
 .imgCont {
   position: relative;
@@ -137,7 +146,7 @@
 }
 @media screen and (max-width: 768px) {
   .port {
-    height: 300px;
+    height: 200px;
   }
 }
 
@@ -213,7 +222,6 @@ footer .cont {
 form {
   background-color: #04202c;
   border: 2px solid #ccc;
-  margin-top: 300px;
   padding: 20px;
   width: 50%;
   margin: 0 auto;
@@ -221,16 +229,15 @@ form {
 }
 form label {
   display: block;
+  color: #c9d1c8;
   font-weight: bold;
   margin-bottom: 5px;
-  color: #c9d1c8;
 }
 
 label {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
-  color: #c9d1c8;
 }
 
 input[type=text], input[type=email], textarea {
