@@ -46,6 +46,10 @@
     margin-top: 200px;
     background-color: $color1;
     font-family: "SpaceGrotesk";
+
+    @include mobile {
+        font-size: 20px
+    }
 }
 .p1-chico{
     @extend .p1;

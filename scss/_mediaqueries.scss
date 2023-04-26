@@ -8,3 +8,15 @@
         @content;
     }
 }
+
+.colRev{
+    @include mobile {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+.colH{
+    @include mobile {
+        height: 400px;
+    }
+}

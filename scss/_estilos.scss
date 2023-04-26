@@ -26,7 +26,7 @@
 }
 .port{
 
-    height: 700px;
+    height: 500px;
 
     @include mobile {
         height: 300px;
@@ -43,9 +43,7 @@
     justify-content: space-evenly;
 }
 //Textos
-h1{
-    font-size: 200px;
-}
+
 h2{
     margin: 40px 20px;
     font-size: 40px;
