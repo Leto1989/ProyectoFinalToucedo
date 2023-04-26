@@ -25,6 +25,11 @@
         height: 300px;
     }
 }
+.imgPerfil {
+    @include desktop {
+        height: auto;
+    }
+}
 .imgCont{
     position: relative;
 }
@@ -56,8 +61,12 @@ h2{
 }
 h3, h4{
     color: $color2;
-    margin: 2px;
+    margin: 20px;
     padding: 2px;
+
+    @include mobile {
+        margin: 10px 15px;
+    }
 }
 
 
