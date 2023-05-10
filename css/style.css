@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 768px) {
   .colH {
-    height: 400px;
+    height: 200px;
   }
 }
 
@@ -113,6 +113,24 @@
   font-size: 20px;
 }
 
+h3, h4 {
+  transition: background-color 3s, color 3s, padding 1s;
+}
+h3:hover, h4:hover {
+  background-color: #c9d1c8;
+  color: #04202c;
+  padding: 10px;
+}
+
+.pHover {
+  transition: background-color 1s, color 3s, margin 2s;
+}
+.pHover:hover {
+  background-color: #5b7065;
+  color: #04202c;
+  margin: 15px;
+}
+
 @font-face {
   font-family: "Battambang";
   src: url("../fonts/Battambang-Bold.ttf");
@@ -174,11 +192,22 @@ h2 {
   font-family: "CormorantUnicase";
   color: #c9d1c8;
 }
+@media screen and (max-width: 768px) {
+  h2 {
+    margin: 20px;
+    font-size: 30px;
+  }
+}
 
 h3 {
   color: red;
   margin: 10px;
   padding: 5px;
+}
+@media screen and (max-width: 768px) {
+  h3 {
+    color: aliceblue;
+  }
 }
 
 h4 {
@@ -219,6 +248,18 @@ li {
   font-size: 25px;
 }
 
+a {
+  background-color: #04202c;
+  font-size: 20px;
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  a {
+    font-size: 25px;
+    color: red;
+  }
+}
+
 footer {
   background-color: #c9d1c8;
   display: flex;
@@ -235,24 +276,6 @@ footer .cont {
     width: inherit;
     justify-content: center;
   }
-}
-
-h3, h4 {
-  transition: background-color 3s, color 3s, padding 1s;
-}
-h3:hover, h4:hover {
-  background-color: #c9d1c8;
-  color: #04202c;
-  padding: 10px;
-}
-
-.pHover {
-  transition: background-color 1s, color 3s, margin 2s;
-}
-.pHover:hover {
-  background-color: #5b7065;
-  color: #04202c;
-  margin: 15px;
 }
 
 form {

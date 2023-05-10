@@ -59,11 +59,19 @@ h2{
     font-size: 40px;
     font-family: "CormorantUnicase";
     color: $color2;
+    
+    @include mobile {
+        margin:20px;
+        font-size: 30px;
+    }
 }
 h3{
     color:red;
     margin:10px;
     padding: 5px;
+    @include mobile {
+        color:aliceblue;
+    }
 }
 h4{
     color: $color2;

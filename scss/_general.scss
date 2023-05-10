@@ -21,6 +21,15 @@ header{
 li{
     font-size: 25px;
 }
+a{
+    background-color: $color3;
+    font-size: 20px;
+    text-decoration: none;
+    @include mobile {
+        font-size: 25px;
+        color:red;
+    }
+}
 footer{
     background-color: $color2;
     display: flex;
